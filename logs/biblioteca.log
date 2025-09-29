@@ -1,0 +1,256 @@
+2025-09-29T16:18:06.841-05:00  INFO 11508 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 11508 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T16:18:06.843-05:00  INFO 11508 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T16:18:07.761-05:00  INFO 11508 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T16:18:07.848-05:00  INFO 11508 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 4 JPA repository interfaces.
+2025-09-29T16:18:08.364-05:00  INFO 11508 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T16:18:08.378-05:00  INFO 11508 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T16:18:08.378-05:00  INFO 11508 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T16:18:08.445-05:00  INFO 11508 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T16:18:08.446-05:00  INFO 11508 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1555 ms
+2025-09-29T16:18:08.727-05:00  INFO 11508 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T16:18:08.803-05:00  INFO 11508 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T16:18:08.844-05:00  INFO 11508 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T16:18:09.175-05:00  INFO 11508 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T16:18:09.208-05:00  INFO 11508 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T16:18:09.708-05:00  INFO 11508 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@56f9de3b
+2025-09-29T16:18:09.710-05:00  INFO 11508 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T16:18:10.056-05:00  INFO 11508 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T16:18:11.205-05:00  INFO 11508 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T16:18:12.269-05:00  INFO 11508 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:18:13.248-05:00  INFO 11508 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T16:18:13.256-05:00  INFO 11508 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 7.225 seconds (process running for 8.157)
+2025-09-29T16:18:32.065-05:00  INFO 11508 --- [recuperacion] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T16:18:32.065-05:00  INFO 11508 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T16:18:32.066-05:00  INFO 11508 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-29T16:18:32.083-05:00  WARN 11508 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /api/v1/empresas
+2025-09-29T16:18:32.229-05:00  WARN 11508 --- [recuperacion] [http-nio-9090-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2025-09-29T16:18:35.813-05:00  WARN 11508 --- [recuperacion] [http-nio-9090-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /api/v1/alquileres
+2025-09-29T16:19:03.289-05:00  INFO 11508 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T16:19:03.294-05:00  INFO 11508 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T16:19:03.299-05:00  INFO 11508 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:19:03.302-05:00  INFO 11508 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T16:19:03.320-05:00  INFO 11508 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T16:19:05.864-05:00  INFO 9640 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 9640 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T16:19:05.866-05:00  INFO 9640 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T16:19:06.816-05:00  INFO 9640 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T16:19:06.934-05:00  INFO 9640 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 4 JPA repository interfaces.
+2025-09-29T16:19:07.434-05:00  INFO 9640 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T16:19:07.464-05:00  INFO 9640 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T16:19:07.464-05:00  INFO 9640 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T16:19:07.542-05:00  INFO 9640 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T16:19:07.544-05:00  INFO 9640 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1631 ms
+2025-09-29T16:19:07.758-05:00  INFO 9640 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T16:19:07.834-05:00  INFO 9640 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T16:19:07.870-05:00  INFO 9640 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T16:19:08.231-05:00  INFO 9640 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T16:19:08.260-05:00  INFO 9640 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T16:19:08.835-05:00  INFO 9640 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4af70b83
+2025-09-29T16:19:08.837-05:00  INFO 9640 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T16:19:09.173-05:00  INFO 9640 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T16:19:10.253-05:00  INFO 9640 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T16:19:11.082-05:00  INFO 9640 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:19:12.025-05:00  INFO 9640 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T16:19:12.035-05:00  INFO 9640 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 6.69 seconds (process running for 7.394)
+2025-09-29T16:19:14.734-05:00  INFO 9640 --- [recuperacion] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T16:19:14.735-05:00  INFO 9640 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T16:19:14.737-05:00  INFO 9640 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-29T16:19:28.980-05:00  WARN 9640 --- [recuperacion] [http-nio-9090-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /api/v1/detalles
+2025-09-29T16:22:20.384-05:00  INFO 9640 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T16:22:20.389-05:00  INFO 9640 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T16:22:20.394-05:00  INFO 9640 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:22:20.396-05:00  INFO 9640 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T16:22:20.413-05:00  INFO 9640 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T16:22:25.747-05:00  INFO 11076 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 11076 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T16:22:25.750-05:00  INFO 11076 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T16:22:26.662-05:00  INFO 11076 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T16:22:26.772-05:00  INFO 11076 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 4 JPA repository interfaces.
+2025-09-29T16:22:27.268-05:00  INFO 11076 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T16:22:27.284-05:00  INFO 11076 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T16:22:27.284-05:00  INFO 11076 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T16:22:27.343-05:00  INFO 11076 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T16:22:27.343-05:00  INFO 11076 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
+2025-09-29T16:22:27.567-05:00  INFO 11076 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T16:22:27.644-05:00  INFO 11076 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T16:22:27.682-05:00  INFO 11076 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T16:22:28.040-05:00  INFO 11076 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T16:22:28.074-05:00  INFO 11076 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T16:22:28.538-05:00  INFO 11076 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2b5f8e61
+2025-09-29T16:22:28.542-05:00  INFO 11076 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T16:22:28.861-05:00  INFO 11076 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T16:22:29.966-05:00  INFO 11076 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T16:22:30.214-05:00  INFO 11076 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:22:31.133-05:00  INFO 11076 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T16:22:31.142-05:00  INFO 11076 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 6.123 seconds (process running for 6.778)
+2025-09-29T16:22:35.134-05:00  INFO 11076 --- [recuperacion] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T16:22:35.135-05:00  INFO 11076 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T16:22:35.136-05:00  INFO 11076 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-29T16:48:50.970-05:00  INFO 11076 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T16:48:50.975-05:00  INFO 11076 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T16:48:50.980-05:00  INFO 11076 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:48:50.982-05:00  INFO 11076 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T16:48:50.996-05:00  INFO 11076 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T16:48:56.133-05:00  INFO 12636 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 12636 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T16:48:56.136-05:00  INFO 12636 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T16:48:57.021-05:00  INFO 12636 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T16:48:57.102-05:00  INFO 12636 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces.
+2025-09-29T16:48:57.567-05:00  INFO 12636 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T16:48:57.581-05:00  INFO 12636 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T16:48:57.582-05:00  INFO 12636 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T16:48:57.633-05:00  INFO 12636 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T16:48:57.633-05:00  INFO 12636 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1443 ms
+2025-09-29T16:48:57.857-05:00  INFO 12636 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T16:48:57.926-05:00  INFO 12636 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T16:48:57.964-05:00  INFO 12636 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T16:48:58.257-05:00  INFO 12636 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T16:48:58.286-05:00  INFO 12636 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T16:48:58.738-05:00  INFO 12636 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2b5f8e61
+2025-09-29T16:48:58.740-05:00  INFO 12636 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T16:48:59.072-05:00  INFO 12636 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T16:49:00.209-05:00  INFO 12636 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T16:49:00.433-05:00  INFO 12636 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:49:01.400-05:00  INFO 12636 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T16:49:01.411-05:00  INFO 12636 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 5.788 seconds (process running for 6.471)
+2025-09-29T16:49:21.759-05:00  INFO 12636 --- [recuperacion] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T16:49:21.759-05:00  INFO 12636 --- [recuperacion] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T16:49:21.761-05:00  INFO 12636 --- [recuperacion] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-29T16:55:16.807-05:00  INFO 12636 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T16:55:16.813-05:00  INFO 12636 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T16:55:16.819-05:00  INFO 12636 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:55:16.821-05:00  INFO 12636 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T16:55:16.836-05:00  INFO 12636 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T16:55:21.709-05:00  INFO 12184 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 12184 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T16:55:21.712-05:00  INFO 12184 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T16:55:22.552-05:00  INFO 12184 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T16:55:22.668-05:00  INFO 12184 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2025-09-29T16:55:23.143-05:00  INFO 12184 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T16:55:23.163-05:00  INFO 12184 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T16:55:23.164-05:00  INFO 12184 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T16:55:23.217-05:00  INFO 12184 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T16:55:23.218-05:00  INFO 12184 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1462 ms
+2025-09-29T16:55:23.473-05:00  INFO 12184 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T16:55:23.534-05:00  INFO 12184 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T16:55:23.567-05:00  INFO 12184 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T16:55:23.887-05:00  INFO 12184 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T16:55:23.926-05:00  INFO 12184 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T16:55:24.395-05:00  INFO 12184 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6728370a
+2025-09-29T16:55:24.397-05:00  INFO 12184 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T16:55:24.712-05:00  INFO 12184 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T16:55:25.790-05:00  INFO 12184 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T16:55:25.999-05:00  INFO 12184 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T16:55:26.941-05:00  INFO 12184 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T16:55:26.949-05:00  INFO 12184 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 5.776 seconds (process running for 6.442)
+2025-09-29T16:55:32.585-05:00  INFO 12184 --- [recuperacion] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T16:55:32.586-05:00  INFO 12184 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T16:55:32.587-05:00  INFO 12184 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-29T17:07:32.376-05:00  INFO 12184 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T17:07:32.381-05:00  INFO 12184 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T17:07:32.388-05:00  INFO 12184 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T17:07:32.391-05:00  INFO 12184 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T17:07:32.408-05:00  INFO 12184 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T17:07:37.725-05:00  INFO 15376 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 15376 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T17:07:37.728-05:00  INFO 15376 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T17:07:38.583-05:00  INFO 15376 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T17:07:38.669-05:00  INFO 15376 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2025-09-29T17:07:39.107-05:00  INFO 15376 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T17:07:39.121-05:00  INFO 15376 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T17:07:39.122-05:00  INFO 15376 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T17:07:39.173-05:00  INFO 15376 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T17:07:39.174-05:00  INFO 15376 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2025-09-29T17:07:39.406-05:00  INFO 15376 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T17:07:39.469-05:00  INFO 15376 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T17:07:39.503-05:00  INFO 15376 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T17:07:39.817-05:00  INFO 15376 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T17:07:39.859-05:00  INFO 15376 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T17:07:40.293-05:00  INFO 15376 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@466fedfa
+2025-09-29T17:07:40.295-05:00  INFO 15376 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T17:07:40.611-05:00  INFO 15376 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T17:07:41.676-05:00  INFO 15376 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T17:07:41.897-05:00  INFO 15376 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T17:07:42.867-05:00  INFO 15376 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T17:07:42.879-05:00  INFO 15376 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 5.685 seconds (process running for 6.336)
+2025-09-29T17:07:52.695-05:00  INFO 15376 --- [recuperacion] [http-nio-9090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T17:07:52.696-05:00  INFO 15376 --- [recuperacion] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T17:07:52.697-05:00  INFO 15376 --- [recuperacion] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-29T17:10:44.852-05:00  INFO 15376 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T17:10:44.858-05:00  INFO 15376 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T17:10:44.864-05:00  INFO 15376 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T17:10:44.866-05:00  INFO 15376 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T17:10:44.886-05:00  INFO 15376 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T17:10:49.615-05:00  INFO 13384 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Starting RecuperacionApplication using Java 21.0.6 with PID 13384 (C:\Users\alum.fial1\Downloads\recuperacion\recuperacion\target\classes started by alum.fial1 in C:\Users\alum.fial1\Downloads\recuperacion\recuperacion)
+2025-09-29T17:10:49.618-05:00  INFO 13384 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T17:10:50.468-05:00  INFO 13384 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T17:10:50.554-05:00  INFO 13384 --- [recuperacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2025-09-29T17:10:51.076-05:00  INFO 13384 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-09-29T17:10:51.091-05:00  INFO 13384 --- [recuperacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T17:10:51.091-05:00  INFO 13384 --- [recuperacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-29T17:10:51.145-05:00  INFO 13384 --- [recuperacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T17:10:51.146-05:00  INFO 13384 --- [recuperacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1483 ms
+2025-09-29T17:10:51.386-05:00  INFO 13384 --- [recuperacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T17:10:51.448-05:00  INFO 13384 --- [recuperacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-29T17:10:51.479-05:00  INFO 13384 --- [recuperacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T17:10:51.791-05:00  INFO 13384 --- [recuperacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T17:10:51.822-05:00  INFO 13384 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T17:10:52.295-05:00  INFO 13384 --- [recuperacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2b5f8e61
+2025-09-29T17:10:52.297-05:00  INFO 13384 --- [recuperacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T17:10:52.689-05:00  INFO 13384 --- [recuperacion] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T17:10:53.839-05:00  INFO 13384 --- [recuperacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T17:10:54.045-05:00  INFO 13384 --- [recuperacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T17:10:55.031-05:00  INFO 13384 --- [recuperacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-09-29T17:10:55.042-05:00  INFO 13384 --- [recuperacion] [main] c.u.r.RecuperacionApplication            : Started RecuperacionApplication in 5.999 seconds (process running for 6.676)
+2025-09-29T17:10:58.728-05:00  INFO 13384 --- [recuperacion] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-29T17:10:58.729-05:00  INFO 13384 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-29T17:10:58.730-05:00  INFO 13384 --- [recuperacion] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-29T17:11:48.459-05:00  INFO 13384 --- [recuperacion] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T17:11:48.465-05:00  INFO 13384 --- [recuperacion] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T17:11:48.470-05:00  INFO 13384 --- [recuperacion] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T17:11:48.472-05:00  INFO 13384 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T17:11:48.487-05:00  INFO 13384 --- [recuperacion] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
